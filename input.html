@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>=========== Inputs===================</p>
+
+    <input type="password"/> <br/>
+    <input type="search"/> <br/>
+    <input type="phone" placeholder="phone"/><br/>
+    <input type="date"/><br/>
+    <input type="color"/><br/>
+    <input type="button"  /><br/>
+    <input type="file" accept="image/*" multiple/><br/>
+    <input type="checkbox" value="true">
+
+    <p>------------------- Fieldset -----------</p>
+
+    <fieldset>
+        <legend>CheckBoxes</legend>
+        <input id="one" type="radio" value="One" name="list">
+        <label for="one">uno</label>
+        <input id="two" type="radio" value="Two" name="list">
+        <label for="two">dos</label>
+        <input id="three" type="radio" value="Three" name="list">
+        <label for="three">tres</label>
+    </fieldset>
+
+    <p>---------------------From -------------------</p>
+
+    <!-- Pega to pass to the new page -->
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="name">
+        <br/>
+        <label>
+            Email:
+            <input id="email" type="email" required placeholder="Email">
+        </label> 
+        <br/>
+        <hr>
+        <button> Submmit</button>
+
+    </form>
+
+</body>
+</html>
